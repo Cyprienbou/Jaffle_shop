@@ -1,0 +1,11 @@
+functions:
+  - name: safe_divide
+    description: safely divde a numerator
+    
+    arguments:                  # optional
+      - name: nominator          # required if arguments is specified
+        data_type: number      # required if arguments is specified
+      - name: denominator          # required if arguments is specified
+        data_type: number    
+    returns:                    # required
+      data_type: number        # required
